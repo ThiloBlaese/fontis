@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blue-50: #f0f6f9;
+  --color-blue-100: #e0edf4;
+  --color-blue-200: #c2dbe9;
+  --color-blue-300: #99b8d2;
+  --color-blue-400: #7395b3;
+  --color-blue-500: #66A8CB;
+  --color-blue-600: #528cae;
+  --color-blue-700: #43728f;
+  --color-blue-800: #365a71;
+  --color-blue-900: #2b4759;
+
+  --color-green-50: #f3f7ef;
+  --color-green-100: #e7efdf;
+  --color-green-200: #cbe0bb;
+  --color-green-300: #adc996;
+  --color-green-400: #95b778;
+  --color-green-500: #8BB158;
+  --color-green-600: #739546;
+  --color-green-700: #5a7635;
+  --color-green-800: #455a28;
+  --color-green-900: #303f1d;
+
+  --color-amber-50: #fdf7f1;
+  --color-amber-100: #faebd9;
+  --color-amber-200: #f2d0a8;
+  --color-amber-300: #e8b173;
+  --color-amber-400: #df9449;
+  --color-amber-500: #CC823F;
+  --color-amber-600: #b36622;
+  --color-amber-700: #914d13;
+  --color-amber-800: #6e380a;
+  --color-amber-900: #4d2503;
+}
+
+/* Global Base Typography & Reset */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Noto Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Verhindert Text-Selektion während Drag & Drop */
+.select-none {
+  user-select: none;
+}
+
+/* Modal Animations */
+@keyframes modal-fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes modal-scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-field-pop-in {
+  animation: field-pop-in 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.animate-modal-backdrop {
+  animation: modal-fade-in 0.2s ease-out forwards;
+}
+
+.animate-modal-content {
+  animation: modal-scale-in 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

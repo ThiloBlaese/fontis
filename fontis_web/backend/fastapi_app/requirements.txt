@@ -1,0 +1,18 @@
+# Web backend & API
+fastapi>=0.115.0
+uvicorn>=0.30.0
+python-multipart>=0.0.9
+python-dotenv>=1.0.0
+
+# Database & full-text search
+sqlite-utils>=3.36
+
+# Local semantic search embeddings
+fastembed>=0.6.0
+
+# PDF Findbuch export & optional PDF thumbnail rendering
+fpdf2>=2.8.0
+pymupdf>=1.24.0
+
+# Native desktop window
+pywebview>=5.0.0

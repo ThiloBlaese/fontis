@@ -1,0 +1,613 @@
+{
+  "version": "1.0",
+  "timestamp": 1788200578.6320286,
+  "treeData": [
+    {
+      "id": "4db12960-f99b-4032-9f23-5dad4976089c",
+      "label": "Heimat- und Vereinsarchiv Lindental",
+      "isOpen": true,
+      "layoutFields": [
+        {
+          "id": "field_root_01",
+          "label": "Name der Einrichtung",
+          "x": 32,
+          "y": 32,
+          "width": 608,
+          "height": 128,
+          "bgColor": "bg-white"
+        },
+        {
+          "id": "field_root_02",
+          "label": "Trägerschaft",
+          "x": 32,
+          "y": 192,
+          "width": 288,
+          "height": 128,
+          "bgColor": "bg-white"
+        },
+        {
+          "id": "field_root_03",
+          "label": "Gründungsjahr",
+          "x": 352,
+          "y": 192,
+          "width": 288,
+          "height": 128,
+          "bgColor": "bg-white"
+        },
+        {
+          "id": "field_root_04",
+          "label": "Profil & Sammlungsauftrag",
+          "x": 32,
+          "y": 352,
+          "width": 608,
+          "height": 288,
+          "bgColor": "bg-white"
+        },
+        {
+          "id": "field_root_05",
+          "label": "Archivleitung",
+          "x": 352,
+          "y": 672,
+          "width": 288,
+          "height": 128,
+          "bgColor": "bg-white"
+        },
+        {
+          "id": "field_root_06",
+          "label": "Öffnungszeiten & Kontakt",
+          "x": 32,
+          "y": 672,
+          "width": 288,
+          "height": 128,
+          "bgColor": "bg-white"
+        }
+      ],
+      "records": [
+        {
+          "field_root_01": "Heimat- und Vereinsarchiv Lindental",
+          "field_root_02": "Heimat- und Geschichtsverein Lindental e. V.",
+          "field_root_03": "1958",
+          "field_root_04": "Sicherung, Erschließung und Bereitstellung des kulturellen und historischen Erbes der Gemeinde Lindental und ihrer Ortsteile.\n\nDas Archiv beherbergt Schriftgut und Sachüberlieferungen der örtlichen Vereine, historische Karten und Ansichten, heimatgeschichtliche Nachlässe sowie eine umfangreiche Bilddokumentation von den Anfängen bis zur Gegenwart.",
+          "field_root_05": "Dr. Marianne Weber",
+          "field_root_06": "info@heimatverein-lindental.example\nÖffnungszeiten: Di 16:00 – 19:00 Uhr & nach Vereinbarung"
+        }
+      ],
+      "currentRecordIndex": 0,
+      "children": [
+        {
+          "id": "00672dbc-c655-4899-a636-2b36324a95df",
+          "label": "S 01 - Bild- und Ansichtskartensammlung",
+          "isOpen": false,
+          "layoutFields": [
+            {
+              "id": "field_a_sig",
+              "label": "Signatur",
+              "x": 32,
+              "y": 32,
+              "width": 288,
+              "height": 128,
+              "bgColor": "bg-white"
+            },
+            {
+              "id": "field_a_titel",
+              "label": "Titel",
+              "x": 352,
+              "y": 32,
+              "width": 608,
+              "height": 128,
+              "bgColor": "bg-white"
+            },
+            {
+              "id": "field_a_laufzeit",
+              "label": "Laufzeit",
+              "x": 32,
+              "y": 192,
+              "width": 288,
+              "height": 128,
+              "bgColor": "bg-white"
+            },
+            {
+              "id": "field_a_ort",
+              "label": "Ortsteil / Sachgebiet",
+              "x": 352,
+              "y": 192,
+              "width": 288,
+              "height": 128,
+              "bgColor": "bg-white",
+              "isSelectionList": true
+            },
+            {
+              "id": "field_a_fotograf",
+              "label": "Fotograf / Verlag",
+              "x": 672,
+              "y": 192,
+              "width": 288,
+              "height": 128,
+              "bgColor": "bg-white",
+              "isSelectionList": true
+            },
+            {
+              "id": "field_a_beschr",
+              "label": "Motivbeschreibung",
+              "x": 32,
+              "y": 352,
+              "width": 608,
+              "height": 288,
+              "bgColor": "bg-white"
+            },
+            {
+              "id": "field_a_format",
+              "label": "Format / Träger",
+              "x": 672,
+              "y": 352,
+              "width": 288,
+              "height": 128,
+              "bgColor": "bg-white",
+              "isSelectionList": true
+            },
+            {
+              "id": "field_a_zustand",
+              "label": "Erhaltungszustand",
+              "x": 672,
+              "y": 512,
+              "width": 288,
+              "height": 128,
+              "bgColor": "bg-white",
+              "isSelectionList": true
+            }
+          ],
+          "records": [
+            {
+              "field_a_sig": "S01/001",
+              "field_a_titel": "Ansichtskarte Marktplatz mit historischem Rathaus",
+              "field_a_laufzeit": "1910 - 1912",
+              "field_a_ort": "Alt-Lindental",
+              "field_a_fotograf": "Verlag Kunsthandlung Bruns",
+              "field_a_beschr": "Ansicht des belebten Marktplatzes mit dem spätbarocken Rathaus im Hintergrund. Im Vordergrund Bürger in historischer Kleidung und ein Pferdefuhrwerk. Poststempel datiert auf den 14. August 1912.",
+              "field_a_format": "Lichtdruck / Postkarte (14 x 9 cm)",
+              "field_a_zustand": "Sehr gut"
+            },
+            {
+              "field_a_sig": "S01/002",
+              "field_a_titel": "Dorfstraße in Unterlindental mit Dorfschmiede Meurer",
+              "field_a_laufzeit": "1925",
+              "field_a_ort": "Unterlindental",
+              "field_a_fotograf": "Unbekannt (Privataufnahme)",
+              "field_a_beschr": "Straßenansicht von Unterlindental mit Blick auf die Schmiede Meurer. Meister Heinrich Meurer und Geselle beim Hufbeschlag eines Kaltblüters. Im Hintergrund die alte Lindentaler Gerichtslinde.",
+              "field_a_format": "Glasplattennegativ / Papierabzug s/w",
+              "field_a_zustand": "Gut (leichte Randläsuren)"
+            },
+            {
+              "field_a_sig": "S01/003",
+              "field_a_titel": "Kaiserliche Postkutsche vor der Posthalterei",
+              "field_a_laufzeit": "1898",
+              "field_a_ort": "Alt-Lindental",
+              "field_a_fotograf": "Hofphotograph Carl Scholl",
+              "field_a_beschr": "Die vierspännige Postkutsche der Linie Lindental–Kreisstadt kurz vor der Abfahrt. Posthalter Johann Claßen mit Postillion und Fahrgästen vor der Gaststätte und Poststation \"Zur Krone\".",
+              "field_a_format": "Albuminabzug auf Karton",
+              "field_a_zustand": "Gut"
+            },
+            {
+              "field_a_sig": "S01/004",
+              "field_a_titel": "Einweihung der neuen Volksschule Lindental-Nord",
+              "field_a_laufzeit": "1954",
+              "field_a_ort": "Lindental-Nord",
+              "field_a_fotograf": "Fotoatelier Walter Klein",
+              "field_a_beschr": "Feierliche Schlüsselübergabe vor dem Schulportal durch Bürgermeister Franz Becker an Rektor Heinrich Weber. Zahlreiche Schulkinder mit Schultüten und die Dorfbevölkerung wohnen dem Festakt bei.",
+              "field_a_format": "Gelatinesilberabzug s/w",
+              "field_a_zustand": "Sehr gut"
+            },
+            {
+              "field_a_sig": "S01/005",
+              "field_a_titel": "Großes Hochwasser am Lindentaler Bach",
+              "field_a_laufzeit": "1968",
+              "field_a_ort": "Mühlenviertel",
+              "field_a_fotograf": "Foto-Ecke Lindental",
+              "field_a_beschr": "Überflutete Straßen und Gärten im Mühlenviertel nach tagelangen Starkregenfällen. Einsatzkräfte der Freiwilligen Feuerwehr errichten Sandsackdämme vor der Klostermühle.",
+              "field_a_format": "Farbabzug Kleinbild",
+              "field_a_zustand": "Sehr gut"
+            }
+          ],
+          "currentRecordIndex": 0,
+          "children": []
+        },
+        {
+          "id": "0d09174b-204f-4241-a1df-9990816e7883",
+          "label": "U 01 - Urkunden und historische Dokumente",
+          "isOpen": false,
+          "layoutFields": [
+            {
+              "id": "field_b_sig",
+              "label": "Signatur",
+              "x": 32,
+              "y": 32,
+              "width": 288,
+              "height": 128,
+              "bgColor": "bg-white"
+            },
+            {
+              "id": "field_b_titel",
+              "label": "Betreff / Urkundentitel",
+              "x": 352,
+              "y": 32,
+              "width": 608,
+              "height": 128,
+              "bgColor": "bg-white"
+            },
+            {
+              "id": "field_b_laufzeit",
+              "label": "Laufzeit",
+              "x": 32,
+              "y": 192,
+              "width": 288,
+              "height": 128,
+              "bgColor": "bg-white"
+            },
+            {
+              "id": "field_b_aussteller",
+              "label": "Aussteller / Beteiligte",
+              "x": 352,
+              "y": 192,
+              "width": 288,
+              "height": 128,
+              "bgColor": "bg-white"
+            },
+            {
+              "id": "field_b_art",
+              "label": "Urkundenart",
+              "x": 672,
+              "y": 192,
+              "width": 288,
+              "height": 128,
+              "bgColor": "bg-white",
+              "isSelectionList": true
+            },
+            {
+              "id": "field_b_regest",
+              "label": "Regest / Inhalt",
+              "x": 32,
+              "y": 352,
+              "width": 608,
+              "height": 288,
+              "bgColor": "bg-white"
+            },
+            {
+              "id": "field_b_siegel",
+              "label": "Siegel / Beglaubigung",
+              "x": 672,
+              "y": 352,
+              "width": 288,
+              "height": 128,
+              "bgColor": "bg-white",
+              "isSelectionList": true
+            },
+            {
+              "id": "field_b_zustand",
+              "label": "Erhaltungszustand",
+              "x": 672,
+              "y": 512,
+              "width": 288,
+              "height": 128,
+              "bgColor": "bg-white",
+              "isSelectionList": true
+            }
+          ],
+          "records": [
+            {
+              "field_b_sig": "U01/001",
+              "field_b_titel": "Bestätigung des Marktrechts-Privilegs durch Graf Engelbert",
+              "field_b_laufzeit": "1648",
+              "field_b_aussteller": "Graf Engelbert von Lindental",
+              "field_b_art": "Pergamenturkunde / Privileg",
+              "field_b_regest": "Graf Engelbert bestätigt der Bürgerschaft zu Lindental das Recht zur Abhaltung eines wöchentlichen Dienstagsmarktes sowie zweier freier Jahrmärkte (zu Martini und Laurentii) gegen Entrichtung eines jährlichen Zinses von 12 Talern an die gräfliche Rentkammer.",
+              "field_b_siegel": "Wachssiegel in Holzkapsel an Pergamentstreifen",
+              "field_b_zustand": "Gut (Pergament partiell nachgedunkelt)"
+            },
+            {
+              "field_b_sig": "U01/002",
+              "field_b_titel": "Erbbau- und Pachtvertrag über die Obere Klostermühle",
+              "field_b_laufzeit": "1782",
+              "field_b_aussteller": "Abt Johannes, Kloster Marienau / Gerhard Dahmen",
+              "field_b_art": "Pachtvertrag",
+              "field_b_regest": "Verpachtung der klösterlichen Mahl- und Ölmühle am oberen Lindentaler Bachlauf auf Lebenszeit an Müller Gerhard Dahmen und Ehefrau Gertrud geb. Krings. Festlegung der Mahllohn-Abgaben und Pflichten zur Erhaltung des Mühlenwehrs.",
+              "field_b_siegel": "Papiersiegel aufgedrückt",
+              "field_b_zustand": "Gut"
+            },
+            {
+              "field_b_sig": "U01/003",
+              "field_b_titel": "Notarieller Kauf- und Übereignungsvertrag des Hofguts Lindenhof",
+              "field_b_laufzeit": "1892",
+              "field_b_aussteller": "Notar Peter Josef Schmitz / Witwe Jansen & Eheleute Esser",
+              "field_b_art": "Notariatsakte",
+              "field_b_regest": "Verkauf des geschlossenen Hofgutes \"Lindenhof\" (Flur 3, Parzelle 45/12) durch Witwe Maria Katharina Jansen an Wilhelm und Anna Esser für die Kaufsumme von 18.500 Mark. Beigefügt ist ein vollständiges Inventarverzeichnis der Wirtschaftsgebäude und Gerätschaften.",
+              "field_b_siegel": "Notariatssiegel mit Stempelmarke",
+              "field_b_zustand": "Sehr gut"
+            },
+            {
+              "field_b_sig": "U01/004",
+              "field_b_titel": "Stiftungsprivileg der Armenspeisung St. Elisabeth",
+              "field_b_laufzeit": "1715",
+              "field_b_aussteller": "Ratsherr Heinrich von Geilenkirchen",
+              "field_b_art": "Stiftungsbrief",
+              "field_b_regest": "Vermächtnis eines Kapitals von 500 kölnischen Gulden, deren jährliche Zinserträge unwiderruflich zur Verteilung von Mehl und Brot an bedürftige Familien und Witwen der Gemeinde an den vier Adventssonntagen bestimmt sind.",
+              "field_b_siegel": "Lacksiegel anhängend (beschädigt)",
+              "field_b_zustand": "Restaurierungsbedarf"
+            }
+          ],
+          "currentRecordIndex": 0,
+          "children": []
+        },
+        {
+          "id": "d54a9832-0bd9-41b9-a031-4fed17cbe617",
+          "label": "V 01 - Vereine und Brauchtum",
+          "isOpen": false,
+          "layoutFields": [
+            {
+              "id": "field_c_sig",
+              "label": "Signatur",
+              "x": 32,
+              "y": 32,
+              "width": 288,
+              "height": 128,
+              "bgColor": "bg-white"
+            },
+            {
+              "id": "field_c_titel",
+              "label": "Titel",
+              "x": 352,
+              "y": 32,
+              "width": 608,
+              "height": 128,
+              "bgColor": "bg-white"
+            },
+            {
+              "id": "field_c_laufzeit",
+              "label": "Laufzeit",
+              "x": 32,
+              "y": 192,
+              "width": 288,
+              "height": 128,
+              "bgColor": "bg-white"
+            },
+            {
+              "id": "field_c_verein",
+              "label": "Verein / Träger",
+              "x": 352,
+              "y": 192,
+              "width": 288,
+              "height": 128,
+              "bgColor": "bg-white",
+              "isSelectionList": true
+            },
+            {
+              "id": "field_c_kat",
+              "label": "Kategorie",
+              "x": 672,
+              "y": 192,
+              "width": 288,
+              "height": 128,
+              "bgColor": "bg-white",
+              "isSelectionList": true
+            },
+            {
+              "id": "field_c_beschr",
+              "label": "Enthält / Beschreibung",
+              "x": 32,
+              "y": 352,
+              "width": 608,
+              "height": 288,
+              "bgColor": "bg-white"
+            },
+            {
+              "id": "field_c_standort",
+              "label": "Standort / Altsignatur",
+              "x": 672,
+              "y": 352,
+              "width": 288,
+              "height": 128,
+              "bgColor": "bg-white"
+            },
+            {
+              "id": "field_c_zustand",
+              "label": "Erhaltungszustand",
+              "x": 672,
+              "y": 512,
+              "width": 288,
+              "height": 128,
+              "bgColor": "bg-white",
+              "isSelectionList": true
+            }
+          ],
+          "records": [
+            {
+              "field_c_sig": "V01/001",
+              "field_c_titel": "Protokollbuch der Generalversammlungen der St. Sebastianus Schützenbruderschaft",
+              "field_c_laufzeit": "1885 - 1935",
+              "field_c_verein": "St. Sebastianus Schützenbruderschaft 1742 e.V.",
+              "field_c_kat": "Protokollbuch",
+              "field_c_beschr": "Handschriftliche Sitzungsprotokolle der Vorstände und Generalversammlungen. Enthält Schießergebnisse, Vogelschussberichte, Abrechnungen des Schützenfestes, Statutenänderungen und Mitgliederverzeichnisse. Festeinband in Halbleder.",
+              "field_c_standort": "Schrank 2, Fach A (Altsign. SB-01)",
+              "field_c_zustand": "Gut"
+            },
+            {
+              "field_c_sig": "V01/002",
+              "field_c_titel": "Historische Königskette mit Königssilber-Plaketten",
+              "field_c_laufzeit": "1742 - 1960",
+              "field_c_verein": "St. Sebastianus Schützenbruderschaft 1742 e.V.",
+              "field_c_kat": "Sachobjekt / Museumsgut",
+              "field_c_beschr": "Massive Silberkette der Schützenkönige mit 28 gravierten Stiftungsplaketten. Älteste Silbermedaille datiert auf das Gründungsjahr 1742 (Johann von Lindental), jüngste auf 1960. Gravuren zeigen Zunftwappen und Schutzpatrone.",
+              "field_c_standort": "Tresor 1 (Sachgut-Depot)",
+              "field_c_zustand": "Sehr gut"
+            },
+            {
+              "field_c_sig": "V01/003",
+              "field_c_titel": "Festschrift zum 200-jährigen Stiftungsfest der Bruderschaft",
+              "field_c_laufzeit": "1942",
+              "field_c_verein": "St. Sebastianus Schützenbruderschaft 1742 e.V.",
+              "field_c_kat": "Festschrift / Druckschrift",
+              "field_c_beschr": "Gedruckte Festschrift zum 200. Jubiläum. Enthält eine historische Abhandlung von Rektor a.D. Carl Thoma zur Entstehung der Bruderschaft in der Zeit des Dreißigjährigen Krieges sowie ein Verzeichnis sämtlicher Könige seit 1742.",
+              "field_c_standort": "Schrank 2, Fach B",
+              "field_c_zustand": "Sehr gut"
+            },
+            {
+              "field_c_sig": "V01/004",
+              "field_c_titel": "Notenarchiv und Chorbücher des Männergesangvereins \"Liederkranz 1895\"",
+              "field_c_laufzeit": "1895 - 1970",
+              "field_c_verein": "Männergesangverein \"Liederkranz\" Lindental",
+              "field_c_kat": "Notensammlung / Musikalien",
+              "field_c_beschr": "Handschriftliche Partituren für vierstimmigen Männerchor, gedruckte Liederhefte der rheinischen Sängerbünde sowie Repertoire- und Anwesenheitslisten bei Sängerfesten und Heimatkonzerten.",
+              "field_c_standort": "Schrank 4, Fach C",
+              "field_c_zustand": "Gut"
+            },
+            {
+              "field_c_sig": "V01/005",
+              "field_c_titel": "Wagenbau-Entwürfe und Chronik der KG \"Fidele Lindentaler\"",
+              "field_c_laufzeit": "1952 - 1980",
+              "field_c_verein": "Karnevalsgesellschaft \"Fidele Lindentaler\" 1952 e.V.",
+              "field_c_kat": "Akte / Chronik",
+              "field_c_beschr": "Originale Entwurfsskizzen der Fest- und Prunkwagen für den Rosenmontagszug, handschriftliche Manuskripte bekannter Lindentaler Büttenreden, Orden-Muster sowie Abrechnungen der Prinzenproklamationen.",
+              "field_c_standort": "Schrank 5, Fach A",
+              "field_c_zustand": "Sehr gut"
+            }
+          ],
+          "currentRecordIndex": 0,
+          "children": []
+        },
+        {
+          "id": "9996bf13-d0d0-434c-8d1e-5fa5bc9a7286",
+          "label": "N 01 - Nachlass Heinrich Weber (Dorfschullehrer & Chronist)",
+          "isOpen": false,
+          "layoutFields": [
+            {
+              "id": "field_d_sig",
+              "label": "Signatur",
+              "x": 32,
+              "y": 32,
+              "width": 288,
+              "height": 128,
+              "bgColor": "bg-white"
+            },
+            {
+              "id": "field_d_titel",
+              "label": "Titel",
+              "x": 352,
+              "y": 32,
+              "width": 608,
+              "height": 128,
+              "bgColor": "bg-white"
+            },
+            {
+              "id": "field_d_laufzeit",
+              "label": "Laufzeit",
+              "x": 32,
+              "y": 192,
+              "width": 288,
+              "height": 128,
+              "bgColor": "bg-white"
+            },
+            {
+              "id": "field_d_sperrfrist",
+              "label": "Sperrfrist",
+              "x": 352,
+              "y": 192,
+              "width": 288,
+              "height": 128,
+              "bgColor": "bg-white"
+            },
+            {
+              "id": "field_d_art",
+              "label": "Schriftgutart",
+              "x": 672,
+              "y": 192,
+              "width": 288,
+              "height": 128,
+              "bgColor": "bg-white",
+              "isSelectionList": true
+            },
+            {
+              "id": "field_d_beschr",
+              "label": "Enthält / Vorbemerkung",
+              "x": 32,
+              "y": 352,
+              "width": 608,
+              "height": 288,
+              "bgColor": "bg-white"
+            },
+            {
+              "id": "field_d_umfang",
+              "label": "Umfang",
+              "x": 672,
+              "y": 352,
+              "width": 288,
+              "height": 128,
+              "bgColor": "bg-white"
+            },
+            {
+              "id": "field_d_hinweis",
+              "label": "Benutzungshinweis",
+              "x": 672,
+              "y": 512,
+              "width": 288,
+              "height": 128,
+              "bgColor": "bg-white"
+            }
+          ],
+          "records": [
+            {
+              "field_d_sig": "NL-W/001",
+              "field_d_titel": "Chronik der Gemeinde Lindental (Originalmanuskript)",
+              "field_d_laufzeit": "1910 - 1955",
+              "field_d_sperrfrist": "",
+              "field_d_art": "Manuskript / Chronik",
+              "field_d_beschr": "Drei handschriftliche Bände zur Orts- und Regionalgeschichte von Heinrich Weber. Band 1: Mittelalter und Frühneuzeit; Band 2: Französische Herrschaft und 19. Jahrhundert; Band 3: 1900 bis 1955. Umfassende Auswertung alter Kirchenbücher und Gemeinderatsprotokolle.",
+              "field_d_umfang": "3 Bände gebunden (insg. 720 Seiten)",
+              "field_d_hinweis": "Frei für wissenschaftliche und heimatkundliche Zwecke nutzbar"
+            },
+            {
+              "field_d_sig": "NL-W/002",
+              "field_d_titel": "Persönliche Tagebücher und Aufzeichnungen von Heinrich Weber",
+              "field_d_laufzeit": "1938 - 1958",
+              "field_d_sperrfrist": "2038",
+              "field_d_art": "Tagebuch / Notizen",
+              "field_d_beschr": "Private Tagebücher und Notizkladden Webers. Enthalten persönliche Betrachtungen zum Alltags- und Schulleben, Kriegsereignisse im Lindentaler Raum sowie vertrauliche Notizen über örtliche Persönlichkeiten und politische Vorgänge.",
+              "field_d_umfang": "4 Kladden in säurefreier Archivkassette",
+              "field_d_hinweis": "Gesperrt bis Ablauf der Schutzfrist (30 Jahre nach Tod gem. Archivrecht). Einsichtnahme nur auf begründeten Sonderantrag."
+            },
+            {
+              "field_d_sig": "NL-W/003",
+              "field_d_titel": "Schülerkartei und Zensurenregister der Volksschule Lindental",
+              "field_d_laufzeit": "1920 - 1954",
+              "field_d_sperrfrist": "2034",
+              "field_d_art": "Personenregister / Schulakten",
+              "field_d_beschr": "Registerkarten und Zeugnislisten sämtlicher Schülerjahrgänge der Volksschule Lindental. Enthält personenbezogene Daten: Geburtsdatum, Konfession, Angaben zu Eltern und Erziehungsberechtigten, Schulversäumnisse und Beurteilungen.",
+              "field_d_umfang": "2 Stehordner",
+              "field_d_hinweis": "Personenbezogene Sperrfrist (KDG / DSGVO). Genehmigungspflichtig für genealogische Recherchen."
+            },
+            {
+              "field_d_sig": "NL-W/004",
+              "field_d_titel": "Flurnamen- und Mundartsammlung des Lindentaler Raumes",
+              "field_d_laufzeit": "1925 - 1950",
+              "field_d_sperrfrist": "",
+              "field_d_art": "Forschungssammlung / Sprachgut",
+              "field_d_beschr": "Systematische Erfassung lokaler Flur-, Wald- und Gewässerbezeichnungen sowie Mundartausdrücke im Lindentaler Dialekt. Ergänzt um etymologische Erläuterungen und handgezeichnete Flurskizzen.",
+              "field_d_umfang": "1 Faszikel (185 Blatt)",
+              "field_d_hinweis": "Frei nutzbar"
+            },
+            {
+              "field_d_sig": "NL-W/005",
+              "field_d_titel": "Korrespondenz mit Landesmuseum und Denkmalpflege zu Bodenfunden",
+              "field_d_laufzeit": "1928 - 1962",
+              "field_d_sperrfrist": "",
+              "field_d_art": "Briefwechsel / Akte",
+              "field_d_beschr": "Schriftverkehr Webers mit Denkmalpflegern und Archäologen über vorgeschichtliche und römische Streufunde (Münzen, Ziegel, Scherben) im Bereich der Lindentaler Mühlenauen.",
+              "field_d_umfang": "1 Hefter (92 Blatt)",
+              "field_d_hinweis": "Frei nutzbar"
+            }
+          ],
+          "currentRecordIndex": 0,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

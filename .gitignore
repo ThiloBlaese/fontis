@@ -1,0 +1,35 @@
+# Environments & Build Artifacts
+venv/
+.venv/
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Databases, Locks, Backups & Local Digital Assets
+*.db
+*.db-shm
+*.db-wal
+*.db.lock
+*.bak
+*.bak-*
+*.backup_safe
+backups/
+digitalisate/
+data/
+demos/
+
+# Logs, Exports & Local Files
+logs/
+*.log
+debug/
+.DS_Store
+fontis_export_*.json
+fontis_web_*.json
+FontisArchiv.desktop
+
+# Local Config & Editor/Tooling
+.env
+.env.local
+.antigravitycli/
